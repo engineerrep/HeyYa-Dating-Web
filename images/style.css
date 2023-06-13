@@ -1,0 +1,569 @@
+@charset "utf-8";
+
+/* CSS Document */
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  height: 100vh;
+  /* min-width: 1200px; */
+}
+
+a {
+  text-decoration: none;
+  color: #0066a4;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  float: left;
+}
+
+img {
+  border: 0px;
+}
+
+.width {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  /* position: sticky;
+  left: 0;
+  top: 0; */
+  width: 100%;
+  /* float: left; */
+  padding: 15px 0;
+  /* border-bottom: 2px solid #FF8433;
+	background: #FF8433; */
+}
+header .top_header,.pHeader {
+  width: 1350px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.pHeader {
+  background: url(pc_header@2x.png) no-repeat center top;
+  width: 100%;
+  height: 80px;
+  padding: 0 315px;
+  display: flex;
+  align-items: center;
+}
+
+header .logo a {
+  float: left;
+}
+
+header .logo a img {
+  float: left;
+}
+
+.width {
+  width: 100%;
+  max-width: 1370px;
+  margin: 0 auto;
+  /* margin-top: 30px; */
+  /* padding-top: 30px; */
+}
+.width .reserved {
+  font-size: 14px;
+  font-family: SinhalaMN;
+  color: #7F8A87;
+  line-height: 27px;
+}
+.width h3 {
+  padding: 15px 0;
+}
+
+.width p {
+  width: 100%;
+  font-family: SinhalaMN;
+  line-height: 24px;
+}
+
+.width>div {
+  text-align: left;
+  line-height: 24px;
+}
+
+.width .info {
+  margin-top: 20px;
+}
+
+header nav {
+  /* float: right; */
+  padding: 4px 0 0 0;
+}
+
+header nav a {
+  padding: 0 15px;
+  color: #272B00;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: SinhalaMN;
+  line-height: 21px;
+}
+
+header nav a:hover {
+  color: #272B00;
+  font-weight: bold;
+}
+
+.topnav_mobile {
+  display: none;
+  float: right;
+  padding: 2px 0 0 0;
+}
+
+.topnav_mobile button {
+  border: 0px;
+  background: none;
+  width: 30px;
+  cursor: hand;
+  cursor: pointer;
+}
+
+.topnav_mobile button span {
+  width: 30px;
+  height: 2px;
+  background: #333;
+  float: left;
+  margin: 2px 0;
+
+}
+
+.banner {
+  position: relative;
+  background: linear-gradient(198deg, #E6FDF4 0%, #F1F7FA 57%, #FFFFFF 100%);
+  width: 100%;
+  height: calc(100vh - 100px);
+  /* float: left; */
+  /* background-size: 100% auto; */
+}
+
+.banner .width {
+  position: relative;
+}
+
+.banner .mobilescreen {
+  /* background: url(logo1.png) no-repeat left bottom; */
+  /* background-size: 100% auto;
+    float: left;
+    position: absolute;
+    left: 0%;
+    top: -12px; */
+}
+
+.banner .adwords {
+  float: left;
+  width: 50%;
+  color: #fff;
+  /* text-shadow: 0 1px #333; */
+  padding: 100px 0px 0px 0;
+}
+
+.banner .adwords .bannerTtile {
+  float: left;
+  position: absolute;
+  left: 0%;
+  width: 100%;
+  /* margin-bottom: 24px; */
+  /* text-align: center; */
+  padding-left: 12px;
+  font-size: 30px;
+
+}
+
+.banner .adwords h2 {
+  font-size: 28px;
+  font-family: SinhalaMN;
+  color: #272B00;
+  line-height: 36px;
+  margin-top: 79px;
+  /* float: left; */
+  margin: 130px 0 90px 0;
+}
+
+.banner .adwords .title111{
+  font-size: 28px;
+    font-family: SinhalaMN;
+    font-weight: bold;
+    color: #272B00;
+    line-height: 60px;
+
+
+}
+
+.banner .adwords .words111{
+  font-size: 22px;
+  font-family: SinhalaMN;
+  color: #272B00;
+  line-height: 36px;
+}
+
+
+
+
+.banner .download img {
+  height: 55px;
+  width: 170px;
+  margin: 10px;
+  margin-left: 0;
+  margin-right: 30px;
+  margin-top: 100px;
+}
+
+.banner_r {
+  position: absolute;
+  top: 80px;
+  right: 0;
+}
+
+.banner_r img {
+  width: 654px;
+  height: 713px;
+}
+
+.banner_top {
+  width: 100%;
+  margin-top: 200px;
+  display: block;
+  align-items: center;
+  position: relative;
+}
+
+.banner_top .banner_top_circle {
+  width: 65px;
+  height: 50px;
+}
+.banner_top .banner_top_line {
+  position: absolute;
+  left: 66px;
+  bottom: -15px;
+  width: 257px;
+  height: 15px;
+}
+
+.banner_top span {
+  /* margin-left: 10px; */
+  font-size: 32px;
+  font-family: SinhalaMN-Bold, SinhalaMN;
+  font-weight: bold;
+  color: #272B00;
+  line-height: 38px;
+}
+
+.features,
+.maintext,
+.articles {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.maintext {
+  background: #f5f5f5;
+}
+
+.maintext h2,
+.articles h2 {
+  font-size: 26px;
+  padding: 0 0 25 px 0;
+}
+.maintext h3,
+.articles h3 {
+  font-size: 22px;
+  padding: 25px 0 25px 0;
+}
+.maintext h4,
+.articles h4 {
+  text-align: left;
+  font-size: 20px;
+  padding: 25px 0 25px 0;
+}
+
+.maintext p,
+.articles p {
+  padding: 15px 0;
+  font-size: 18px;
+  text-align: left;
+}
+.articles .width {
+  width: 1200px;
+}
+.features ul li {
+  width: 33.3333%;
+  padding: 25px;
+  text-align: center;
+}
+
+.features ul li h3 {
+  font-size: 24px;
+  padding: 20px 0 15px 0;
+}
+
+.features ul li i {
+  width: 100%;
+  display: block;
+}
+
+.features ul li i img {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  /* border-radius: 50%; */
+}
+
+footer {
+  background: #fff;
+  color: #333333;
+  float: left;
+  width: 100%;
+  text-align: center;
+  line-height: 25px;
+  font-size: 14px;
+  height: 100px;
+  box-sizing: border-box;
+  padding-top: 10px;
+}
+
+.pfooter {
+  /* background: url(./pc_header@2x.png)  no-repeat center top; */
+}
+
+footer a {
+  color: #333333;
+  padding: 0 10px;
+}
+
+
+
+.bot_download {
+  width: 100%;
+  float: left;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.bot_download img {
+  height: 55px;
+  width: 170px;
+  margin: 15px;
+}
+
+
+
+@media screen and (max-width:1200px) {
+  .banner{
+    height: 600px;
+  }
+  header .logo{
+    margin-left: 20px;
+  }
+  .banner_r img {
+    width: 400px;
+    height: 460px;
+  }
+  .topnav_mobile {
+    display: block;
+    position: relative;
+    z-index: 2;
+    margin-right: 20px;
+  
+  }
+  header {
+    position: relative;
+  }
+  header nav {
+    position: absolute;
+    right: 0px;
+    top: 35px;
+    width: 18%;
+    background: #333;
+    float: left;
+    padding: 0px;
+    z-index: 2;
+  }
+  header .top_header,.pHeader {
+    width: 100%;
+  }
+  header nav ul {
+    display: none;
+  }
+  header nav li {
+    width: 100%;
+    border-bottom: 1px solid #000;
+  }
+  header nav a {
+    width: 100%;
+    padding: 8px 15px;
+    float: left;
+    font-size: 16px;
+    
+  }
+  .topnav_mobile {
+    display: block;
+  }
+  .banner .mobilescreen{
+    display:none;
+  }
+  .banner_r img {
+    display: none;
+  }
+  .banner .adwords{
+    width:90%;
+    text-align:center;
+    margin:0 auto;
+    float:none;
+    padding-top:12%;
+  }
+  .banner_top {
+    margin-top: 85px;
+  }
+  .banner .adwords .bannerTtile img{
+    /* float: left;
+    position: absolute; */
+    /* margin-top: 20px;
+    width: 45%;
+    height: 45%; */
+    /* margin-bottom: 24px;
+    padding-left: 12px; */
+  } 
+  header nav a {
+    color: #FFFFFF;
+  }
+  .banner .adwords h2 {
+    width: 100%;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-weight: 400;
+    color: #333;
+    line-height: 32px;
+    margin-top: 160px;
+  }
+  .features ul li i img {
+    width: 40%;
+    /* max-width: 100px; */
+    height: auto;
+    /* border-radius: 50%; */
+  }
+  .maintext{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  
+  }
+
+@media screen and (max-width:414px) {
+  .banner{
+    height:700px;
+    background-size:auto 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+  .banner_r img {
+    display: none;
+  }
+  header nav a {
+    font-size: 14px;
+  }
+  
+  header nav {
+    width: 35%;
+    
+  }
+  header nav a {
+    color: #FFFFFF;
+  }
+  .pHeader {
+    padding: 0;
+  }
+  .banner .adwords .bannerTtile{
+    font-size: 20px;
+  }
+  .banner .adwords .bannerTtile img {
+      /* float: left;
+      position: absolute; */
+      /* margin-top: 20px; */
+      width: 100%;
+      height: 100%;
+      padding: 12px;
+      /* margin-bottom: 24px;
+      padding-left: 12px; */
+  }
+  
+  .banner .adwords h1{
+    font-size:32px;
+    line-height: 36px;
+  }
+  header .top_header,.pHeader {
+    width: 100%;
+  }
+  .banner .adwords h2 {
+    width: 100%;
+    font-size: 16px;
+    font-family: SinhalaMN;
+    font-weight: bold;
+    color: #272B00;
+    line-height: 32px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+    .banner .adwords .title111 {
+      font-size: 16px;
+      font-family: SinhalaMN;
+      font-weight: bold;
+      color: #272B00;
+      line-height: 36px;
+    }
+
+.banner .adwords .words111 {
+  font-size: 14px;
+  font-family: SinhalaMN;
+  color: #272B00;
+  line-height: 30px;
+}
+
+ .banner .download{
+  margin-top: 30px;
+ }
+
+  .banner .download img {
+    height: 55px;
+    width: 170px;
+    margin: 10px;
+    
+  }
+  .banner_top {
+    margin-top: 50px;
+  }
+  .banner_top span {
+    font-size: 28px;
+  }
+  .features ul li{
+    width:100%;
+  }
+  .articles .width {
+    width: 100%;
+  }
+  }
